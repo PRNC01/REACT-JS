@@ -1,6 +1,10 @@
+import Hello from "./hello";
 function App() {
   return (
-    <h1>PRINCE</h1>
+    <>
+      <Hello/>
+      <h1>THIS IS REACT USING NPX</h1>
+    </>
   );
 }
 
