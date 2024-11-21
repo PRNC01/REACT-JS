@@ -7,8 +7,8 @@ function App() {
   // let Counter = 5
 
   const addValue = () => {
-    if (Counter == 0) {
-      setCounter(Counter - 1)
+    if (Counter >= 0 ) {
+      setCounter(Counter + 1)
     }
   }
 
